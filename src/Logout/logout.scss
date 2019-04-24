@@ -1,0 +1,31 @@
+.logout-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    color: rgb(233, 73, 73);
+    > * {
+      vertical-align: middle;
+    }
+  }
+  
+  /* POWER */
+  
+  .power {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(233, 73, 73);
+    border-top-color: transparent;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 10px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 5px;
+      width: 2px;
+      height: 8px;
+      background-color: rgb(233, 73, 73);
+    }
+  }
