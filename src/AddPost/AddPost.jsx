@@ -30,6 +30,7 @@ class AddPost extends Component {
       imageFile: file
     })
   }
+  
 
   // handleSubmit = async (e) => {
   handleSubmit = (e) => {

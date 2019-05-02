@@ -17,6 +17,7 @@ const AuthRoute = ({ component: Component, authed, ...rest }) => (
                         <li><NavLink activeClassName='is-active' to="/listposts">List Posts</NavLink></li>
                         <li className="logout"><NavLink to="/"><Logout /></NavLink></li>
                     </ul>
+                    {/* <Component {...props} className="fadeIn animated" /> */}
                     <Component {...props} />
                 </div>
 
